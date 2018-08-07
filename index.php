@@ -1,6 +1,4 @@
-<meta content="0; URL='https://www.slushman.com''" http-equiv"refresh">
-
-<!-- just in case the meta tag is not read properly, here is plan B: a JS redirect -->
 <script type="text/javascript">
-	window.location = 'https://www.slushman.com';
+	window.location = 'https://www.slushman.com' + window.location.pathname;
 </script>
+<p>This site actually lives at <a href="https://www.slushman.com" rel="nofollow">https://www.slushman.com</a></p>
