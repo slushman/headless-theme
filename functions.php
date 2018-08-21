@@ -7,10 +7,10 @@
  * @license  GPL-2.0+
  * @link     https://developer.wordpress.org/themes/basics/theme-functions/
  */
-
 add_action( 'after_setup_theme', 'slushless_theme_setup' );
 add_action( 'after_setup_theme', 'slushless_text_domain' );
 add_action( 'after_setup_theme', 'slushless_register_menus' );
+add_filter( 'use_default_gallery_style', '__return_false' );
 
 
 /**
